@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+// identifies the app’s entry point
 @main
 struct LandmarksApp: App {
     var body: some Scene {
+        // one or more scenes, which in turn provide content for display
         WindowGroup {
             ContentView()
         }
