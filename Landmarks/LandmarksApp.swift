@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-// identifies the app’s entry point
 @main
 struct LandmarksApp: App {
+    @StateObject private var modelData = ModelData()
+
     var body: some Scene {
-        // one or more scenes, which in turn provide content for display
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
