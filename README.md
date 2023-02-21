@@ -1,1 +1,1 @@
-By titorial
+By tutorial
